@@ -44,7 +44,7 @@ To join the testnet, generate your keys and head to our `testnet-access` channel
 ### Generating a Key Pair
 
 To generate a new key pair for signing requests:
-
+curl -sSL https://raw.githubusercontent.com/soundnesslabs/soundness-layer/main/soundnessup/install | bash
 ```bash
 soundness-cli generate-key --name my-key
 ```
